@@ -80,7 +80,9 @@ Probably.
 1. Clone: `git clone https://github.com/ylc22/ufc-vibes-lab.git`
 2. Enter the repo: `cd ufc-vibes-lab`
 3. Create env: `python -m venv .venv`
-4. Activate it: `source .venv/bin/activate`
+4. Activate it:
+   - macOS / Linux: `source .venv/bin/activate`
+   - Windows PowerShell: `.\\.venv\\Scripts\\Activate.ps1`
 5. Install: `pip install -r requirements.txt`
 6. Build data: `python -m src.pipeline --limit 150`
 7. Launch: `streamlit run app.py`
