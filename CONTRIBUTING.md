@@ -8,7 +8,7 @@ Thanks for contributing to UFC Vibes Lab.
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-pytest -q
+python -m pytest -q
 ```
 
 ## Good contributions
